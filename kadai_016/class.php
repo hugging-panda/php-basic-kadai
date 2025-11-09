@@ -45,8 +45,9 @@ class Animal {
         echo "<br>";
         print_r($Pet);
         echo "<br>";
-        echo $Product->show_price('potato', 250)."<br>";
-        echo $Pet->show_height('dog', 60, 5000);
+        $Product->show_price();
+        echo "<br>";
+        $Pet->show_height();
 ?>
 
 </p>
